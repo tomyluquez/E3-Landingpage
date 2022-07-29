@@ -1,0 +1,145 @@
+@font-face {
+    font-family: "letra";
+    src: url(/fonts/Poppins/Poppins-Light.ttf);
+}
+body{
+    background-color: rgb(248, 215, 167);
+}
+*{
+    font-family: "letra";
+}
+header{ 
+    width: 100%;
+    height: 10%;    
+}
+.contenedor{
+    height: 100%;
+    width: 100%;
+    /* position: fixed; */
+}
+.rectangulodearriba{
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px  solid   black;
+}
+.logo{
+    width: 5%;
+    height: 100%;
+    /* object-fit: cover; */
+    margin-left: 80px;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+.listanavegador{
+    list-style: none;
+    float: right;
+    margin-right: 20px;
+}
+.listanavegador li{
+    display: inline-block;
+    margin-right: 5px;
+    padding: 8px 12px;
+}
+.listanavegador li:hover{
+    background-color: rgb(255, 255, 255);
+    cursor: hand;
+    transition: 0.3s;
+    border-radius: 30px;
+}
+.imgytexto{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.textos{
+    width: 50%;
+    margin: 50% 30px;
+}
+.titulo{
+    margin-right: 180px;
+    margin-left: 50px;
+}
+button{
+    width: 130px;
+    height: 35px;
+    margin-right: 30px;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.botonwhats{
+    background-color: black;
+    color: white;
+    border: none;
+}
+.ig{
+    /* background-color: white;
+    color: black;
+    border: solid   30px black;
+    margin-left: 30px; */
+    background-color: white;
+    color: black;
+    border: solid   3px black;
+    margin-left: -10px
+}
+.texto{
+    margin-right: 180px;
+    margin-left: 50px;
+}
+.imagenportada{
+    width: 50%;
+    height: 80%;
+    margin-right: 50px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+.botonwhats:hover{
+    cursor: hand;
+}
+a{
+    text-decoration: none;
+}
+.linkw:visited, :active, link{
+    color: white;
+}
+.igs:visited, :active, link{
+    color: black;
+}
+.condicionesdepago{
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    background-color: rgba(255, 255, 255, 0.474);
+    margin: 100px 350px;
+    display: flex;
+    border-radius: 30px;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.formasdepago{
+    margin-top: 100px;
+    margin-bottom: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.mp{
+    width: 10%;
+    height: 10%;
+    margin-top: 100px;
+    margin-bottom: 5px;
+    object-fit: contain;
+}
+.tarjeta{
+    width: 10%;
+    height: 10%;
+    margin-bottom: 5px;
+    object-fit: contain;
+}
+.eft{
+    width: 10%;
+    height: 10%;
+    margin-bottom: 5px;
+    object-fit: contain;
+}
